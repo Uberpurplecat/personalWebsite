@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: solid black;
+    background-color: azure;
+}
+ul{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+    border: solid black;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 34px 16px;
+    text-decoration: none;
+}
+img{
+    max-width: 25%;
+    max-height: 15%;
+    float: left;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float: left;
+}
+.fontSizeNav{
+    font-size: xx-large;
+}
+
+.linkedinIcon {
+    height: 50px;
+}
